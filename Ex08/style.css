@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+}
+
+.users-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.user {
+    display: flex;
+    margin: 10px;
+}
+
+.user-info {
+    background-color: aquamarine;
+    flex-grow: 1;
+    padding-left: 10px;
+}
